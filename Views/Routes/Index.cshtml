@@ -1,0 +1,149 @@
+﻿<style>
+    .routes-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 20px 20px 80px 20px;
+    }
+
+    .route-card {
+        width: 400px;
+        height: 475px;
+        background-color: #F6F6F6;
+        border-radius: 30px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .route-card:hover {
+            transform: translateY(-5px);
+        }
+
+    .route-image {
+        width: 345px;
+        height: 260px;
+        border-radius: 20px;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+
+    .route-content {
+        padding: 25px;
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .route-title {
+        color: #000;
+        font-size: 20px;
+        font-family: 'Playfair';
+        font-weight: 500;
+        margin: 5px 0;
+    }
+
+    .route-description {
+        color: #151515;
+        font-weight: 200;
+        margin-bottom: 25px;
+        padding: 0 20px;
+    }
+
+    .route-button {
+        display: inline-block;
+        padding: 10px 25px;
+        background-color: #404A36;
+        color: white;
+        border-radius: 20px;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        transition: background-color 0.3s;
+        margin-bottom: 20px;
+    }
+
+        .route-button:hover {
+            background-color: #333D29;
+        }
+</style>
+
+<div class="routes-container">
+    <!-- Карточка 1 -->
+    <div class="route-card">
+        <img src="https://i.ibb.co/ksWPkvkY/1.jpg" alt="Белорусская готика" class="route-image">
+        <div class="route-content">
+            <h3 class="route-title">Белорусская готика и неоготика</h3>
+            <p class="route-description">
+                Исследуем беларусскую готику и ее более позднюю реинкарнацию – так называемую неоготику.
+            </p>
+            <a href="/Article1" class="route-button">Подробнее</a>
+        </div>
+    </div>
+
+    <!-- Карточка 6 -->
+    <div class="route-card">
+        <img src="https://i.ibb.co/QFsLYH0n/f6.jpg" alt="Белорусская готика" class="route-image">
+        <div class="route-content">
+            <h3 class="route-title">Достопримечательности по дороге в Гродно</h3>
+            <p class="route-description">
+                Список крутых населенных пунктов и мест силы, которые стоят того, чтобы время от времени сворачивать с пути
+            </p>
+            <a href="/Article6" class="route-button">Подробнее</a>
+        </div>
+    </div>
+
+    <!-- Карточка 2 -->
+    <div class="route-card">
+        <img src="https://i.ibb.co/mwjGrtF/b5.jpg" alt="Белорусская готика" class="route-image">
+        <div class="route-content">
+            <h3 class="route-title">Белорусское барокко</h3>
+            <p class="route-description">
+                Этот стиль можно любить, можно критиковать и остро недолюбливать, но оставаться равнодушным – вот что по-настоящему сложно.
+            </p>
+            <a href="/Article2" class="route-button">Подробнее</a>
+        </div>
+    </div>
+
+    <!-- Карточка 4 -->
+    <div class="route-card">
+        <img src="https://i.ibb.co/zTXmqzNC/d1.jpg" alt="Белорусская готика" class="route-image">
+        <div class="route-content">
+            <h3 class="route-title">50км от Минска</h3>
+            <p class="route-description">
+                Лучшие места в пределах 50км от центра - свежие идеи для небольшой вылазки из города
+            </p>
+            <a href="/Article4" class="route-button">Подробнее</a>
+        </div>
+    </div>
+
+    <!-- Карточка 3 -->
+    <div class="route-card">
+        <img src="https://i.ibb.co/67HqdcQy/c7.jpg" alt="Белорусская готика" class="route-image">
+        <div class="route-content">
+            <h3 class="route-title">7 неизвестных заброшек Беларуси</h3>
+            <p class="route-description">
+                Маршрут по забытым, но невероятно красивым часовням и усадьбам
+            </p>
+            <a href="/Article3" class="route-button">Подробнее</a>
+        </div>
+    </div>
+
+    <!-- Карточка 5 -->
+    <div class="route-card">
+        <img src="https://i.ibb.co/Df6Cy8PT/e2.jpg" alt="Белорусская готика" class="route-image">
+        <div class="route-content">
+            <h3 class="route-title">Из Минска в Витебск</h3>
+            <p class="route-description">
+                Достопримечательности всем знакомого маршрута, о которых вы могли не знать
+            </p>
+            <a href="/Article5" class="route-button">Подробнее</a>
+        </div>
+    </div>
+</div>

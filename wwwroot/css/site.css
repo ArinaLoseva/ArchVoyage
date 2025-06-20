@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-V.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Libre";
+    src: url("../fonts/Libre Bodoni/LibreBodoni-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url("../fonts/Playfair Display/PlayfairDisplay.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    position: relative;
+    padding-bottom: 250px; /* Высота футера */
+    min-height: 100vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 250px;
+}
+
+p{
+    font-size: 14px;
+    color: black;
+    font-family: 'Inter';
+}
+
+h1 {
+    font-size: 64px;
+    color: black;
+    font-family: 'Libre';
+}
+
+.greenblock {
+    background-color: #E5EAE0;
+    width: 100%;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerblock {
+    width: 100%;
+    height: 180px;
+    align-content:center;
+}
+
+.greenblock h1{
+    margin-left: 10%;
+    margin-top: 7px;
+}
+
+.menu {
+    margin-right: 5%;
+    display: flex;
+    gap: 50px; /* Расстояние между пунктами меню */
+    height: 21px;
+}
+
+.header_link {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Inter';
+}
+
+.logo_link {
+    font-size: 64px;
+    color: black;
+    font-family: 'Libre';
+    text-decoration: none;
+}
+
+.blackblock {
+    width: 100%;
+    height: 250px;
+    align-content: center;
+    background-color: black;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+    .container h4 {
+        font-size: 14px;
+        color: white;
+        font-family: 'Inter';
+        height: 21px;
+    }
+
+    .container p {
+        color: #9EA681;
+        height: 21px;
+    }
+
+.footer .block1,
+.footer .block2,
+.footer .block3,
+.footer .block4 {
+    flex: 1;
+    margin-right: 15%;
+}
+
+.footer .block4 {
+    margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .footer .container {
+        flex-direction: column; 
+        gap: 20px; 
+    }
+
+    .footer .block1,
+    .footer .block2,
+    .footer .block3,
+    .footer .block4 {
+        margin-right: 0; 
+        width: 100%;
+    }
+}
+
+main{
+    height: auto;
+}
+
+.pb-3 {
+    padding-bottom: 0px !important;
+}

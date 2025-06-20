@@ -1,0 +1,97 @@
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\fonts\Inter\COPYRIGHT.txt
+wwwroot\fonts\Inter\Inter-Black.otf
+wwwroot\fonts\Inter\Inter-BlackItalic.otf
+wwwroot\fonts\Inter\Inter-Bold.otf
+wwwroot\fonts\Inter\Inter-BoldItalic.otf
+wwwroot\fonts\Inter\Inter-ExtraBold.otf
+wwwroot\fonts\Inter\Inter-ExtraBoldItalic.otf
+wwwroot\fonts\Inter\Inter-ExtraLight.otf
+wwwroot\fonts\Inter\Inter-ExtraLightItalic.otf
+wwwroot\fonts\Inter\Inter-Italic.otf
+wwwroot\fonts\Inter\Inter-Light.otf
+wwwroot\fonts\Inter\Inter-LightItalic.otf
+wwwroot\fonts\Inter\Inter-Medium.otf
+wwwroot\fonts\Inter\Inter-MediumItalic.otf
+wwwroot\fonts\Inter\Inter-Regular.otf
+wwwroot\fonts\Inter\Inter-SemiBold.otf
+wwwroot\fonts\Inter\Inter-SemiBoldItalic.otf
+wwwroot\fonts\Inter\Inter-Thin.otf
+wwwroot\fonts\Inter\Inter-ThinItalic.otf
+wwwroot\fonts\Inter\Inter-V.ttf
+wwwroot\fonts\Inter\LICENSE.txt
+wwwroot\fonts\Libre Bodoni\COPYRIGHT.txt
+wwwroot\fonts\Libre Bodoni\FONTLOG.txt
+wwwroot\fonts\Libre Bodoni\LibreBodoni-Bold.otf
+wwwroot\fonts\Libre Bodoni\LibreBodoni-Bold.ttf
+wwwroot\fonts\Libre Bodoni\LibreBodoni-BoldItalic.otf
+wwwroot\fonts\Libre Bodoni\LibreBodoni-BoldItalic.ttf
+wwwroot\fonts\Libre Bodoni\LibreBodoni-Italic.otf
+wwwroot\fonts\Libre Bodoni\LibreBodoni-Italic.ttf
+wwwroot\fonts\Libre Bodoni\LibreBodoni-Regular.otf
+wwwroot\fonts\Libre Bodoni\LibreBodoni-Regular.ttf
+wwwroot\fonts\Libre Bodoni\LICENSE.txt
+wwwroot\fonts\Libre Bodoni\OFL.txt
+wwwroot\fonts\Playfair Display\COPYRIGHT.txt
+wwwroot\fonts\Playfair Display\LICENSE.txt
+wwwroot\fonts\Playfair Display\PlayfairDisplay.ttf
+wwwroot\fonts\Playfair Display\PlayfairDisplay-Italic.ttf
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt

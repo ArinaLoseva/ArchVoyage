@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Arina\Desktop\AV_Release</_PublishTargetUrl>
+    <History>True|2025-06-01T23:14:31.5327831Z||;True|2025-06-02T02:13:01.7858631+03:00||;True|2025-06-02T02:09:24.9514554+03:00||;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=localhost%3bPort=5432%3bDatabase=ArchVoyageDB%3bUser Id=postgres%3bPassword=root</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

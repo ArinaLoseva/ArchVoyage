@@ -1,0 +1,155 @@
+﻿@model Users
+
+<style>
+    .main_block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        background-color: white;
+        padding: 20px;
+    }
+
+    .registration {
+        width: 400px;
+        padding: 60px 40px;
+        border-radius: 30px;
+        background-color: #E5EAE0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 100;
+    }
+
+        .registration h3 {
+            color: #404A36;
+            font-size: 20px;
+            font-family: 'Inter';
+            font-weight: 600;
+            margin-bottom: 30px;
+            margin-top: 10px;
+        }
+
+        .registration input {
+            width: 100%;
+            height: 36px;
+            padding: 0 15px;
+            background-color: white;
+            border: 0px solid #ddd;
+            border-radius: 20px;
+            font-family: 'Inter';
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+            .registration input:focus {
+                outline: none;
+                border-color: #404A36;
+            }
+
+            .registration input::placeholder {
+                color: #939393;
+            }
+
+    .btn-primary {
+        width: 180px;
+        height: 36px;
+        background-color: #404A36;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 200;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+        .btn-primary:hover {
+            background-color: #333D29;
+        }
+
+    .login-link {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+        .login-link a {
+            color: #404A36;
+            text-decoration: none;
+            font-size: 14px;
+            font-family: 'Inter';
+            text-decoration: underline;
+        }
+
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .password-container {
+        position: relative;
+        width: 100%;
+    }
+
+    .toggle-password {
+        position: absolute;
+        right: 10px;
+        top: 40%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #939393;
+    }
+
+        .toggle-password:hover {
+            color: #404A36;
+        }
+
+        .toggle-password i {
+            font-size: 18px;
+        }
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<div class="main_block">
+    <div class="registration">
+        <h3>Авторизация</h3>
+        <form method="POST" asp-controller="Authorization" asp-action="Auth">
+            <input type="email" placeholder="E-mail" asp-for="Email" />
+
+            <div class="password-container">
+                <input type="password" id="password" placeholder="Пароль" asp-for="Password" />
+                <button type="button" class="toggle-password" onclick="togglePassword('password')">
+                    <i class="fas fa-eye"></i>
+                </button>
+            </div>
+
+            <button type="submit" class="btn-primary">Войти</button>
+
+            <div class="login-link">
+                <a href="/Registration">Создать аккаунт</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    // Функция для переключения видимости пароля
+    function togglePassword(fieldId) {
+        const passwordField = document.getElementById(fieldId);
+        const toggleButton = passwordField.nextElementSibling;
+
+        if (passwordField.type === "password") {
+            passwordField.type = "text";
+            toggleButton.innerHTML = '<i class="fas fa-eye-slash"></i>';
+        } else {
+            passwordField.type = "password";
+            toggleButton.innerHTML = '<i class="fas fa-eye"></i>';
+        }
+    }
+</script>

@@ -1,0 +1,239 @@
+﻿
+
+<style>
+    .main-container {
+        display: flex;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 20px;
+        gap: 30px;
+    }
+
+    /* Стили для фильтрации маршрутов */
+    .filtration-card {
+        width: 280px;
+        background-color: #F6F6F6;
+        border-radius: 30px;
+        padding: 25px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        height: fit-content;
+        position: sticky;
+        top: 20px;
+    }
+
+        .filtration-card h3 {
+            font-size: 24px;
+            font-family: 'Playfair';
+            margin-bottom: 20px;
+            color: #404A36;
+        }
+
+    .route-checkbox {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+        .route-checkbox input {
+            margin-right: 12px;
+            width: 18px;
+            height: 18px;
+            accent-color: #404A36;
+        }
+
+        .route-checkbox label {
+            font-family: 'Inter';
+            font-size: 16px;
+            color: #151515;
+            cursor: pointer;
+        }
+
+    .filtration-card button {
+        width: 100%;
+        padding: 12px;
+        background-color: #404A36;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        font-family: 'Inter';
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: background-color 0.3s;
+    }
+
+        .filtration-card button:hover {
+            background-color: #333D29;
+        }
+
+    /* Стили для карточек предложений */
+    .offers-container {
+        flex: 1;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .offer-card {
+        background-color: #F6F6F6;
+        border-radius: 30px;
+        padding: 25px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+        .offer-card:hover {
+            transform: translateY(-5px);
+        }
+
+    .offer-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .offer-avatar {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+        border: 3px solid #E5EAE0;
+    }
+
+    .offer-name {
+        font-family: 'Playfair';
+        font-size: 20px;
+        font-weight: 500;
+        color: #000;
+        margin-bottom: 5px;
+    }
+
+    .offer-tagline {
+        font-family: 'Inter';
+        font-size: 14px;
+        color: #666;
+        font-style: italic;
+    }
+
+    .offer-details {
+        margin-bottom: 15px;
+    }
+
+        .offer-details p {
+            font-family: 'Inter';
+            font-size: 14px;
+            color: #151515;
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+
+        .offer-details strong {
+            font-weight: 500;
+        }
+
+    .offer-routes {
+        margin-top: 20px;
+    }
+
+        .offer-routes p {
+            font-family: 'Inter';
+            font-size: 14px;
+            color: #151515;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+    .route-tag {
+        display: inline-block;
+        background-color: #E5EAE0;
+        color: #404A36;
+        padding: 6px 14px;
+        border-radius: 15px;
+        font-size: 13px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+    }
+
+    .route-tag {
+        width: auto;
+        background-color: #E5EAE0;
+        text-align: center;
+        padding: 12px 25px;
+        border-radius: 20px;
+        font-size: 14px;
+        margin: 10px 0;
+        color: black;
+    }
+</style>
+
+<div class="main-container">
+    <!-- Блок фильтрации -->
+    <div class="filtration-card">
+        <h3>Маршруты</h3>
+        <form asp-action="Index" method="post" id="routeFilterForm">
+            <div class="route-checkbox">
+                <input type="checkbox" id="route1" name="selectedRoutes" value="Белорусская готика и неоготика" unchecked>
+                <label for="route1">Белорусская готика и неоготика</label>
+            </div>
+
+            <div class="route-checkbox">
+                <input type="checkbox" id="route6" name="selectedRoutes" value="Достопримечательности по дороге в Гродно" unchecked>
+                <label for="route6">Достопримечательности по дороге в Гродно</label>
+            </div>
+
+            <div class="route-checkbox">
+                <input type="checkbox" id="route2" name="selectedRoutes" value="Белорусское барокко" unchecked>
+                <label for="route2">Белорусское барокко</label>
+            </div>
+
+            <div class="route-checkbox">
+                <input type="checkbox" id="route4" name="selectedRoutes" value="50км от Минска" unchecked>
+                <label for="route4">50км от Минска</label>
+            </div>
+
+            <div class="route-checkbox">
+                <input type="checkbox" id="route5" name="selectedRoutes" value="Из Минска в Витебск" unchecked>
+                <label for="route5">Из Минска в Витебск</label>
+            </div>
+
+            <div class="route-checkbox">
+                <input type="checkbox" id="route3" name="selectedRoutes" value="7 неизвестных заброшек Беларуси" unchecked>
+                <label for="route3">7 неизвестных заброшек Беларуси</label>
+            </div>
+
+            <button type="submit">Найти</button>
+        </form>
+    </div>
+
+    <div class="offers-container">
+        @foreach (var profile in Model)
+        {
+            <div class="offer-card">
+                <div class="offer-header">
+                    <img src="@profile.PhotoLink" alt="Аватар" class="offer-avatar">
+                    <div>
+                        <div class="offer-name">@profile.FullName</div>
+                    </div>
+                </div>
+                <div class="offer-details">
+                    <p><strong>Дата регистрации:</strong> @profile.RegistrationDate</p>
+                    <p><strong>Город:</strong> @profile.City</p>
+                    <p><strong>Транспорт:</strong> @profile.Transport</p>
+                    <p><strong>Контактная информация:</strong> @profile.Contacts</p>
+                    <p><strong>О себе:</strong> @profile.PersonalInformation</p>
+                </div>
+                @if (profile.Routes != null && profile.Routes.Count > 0)
+                {
+                    <div class="offer-routes">
+                        <p>Ищу попутчиков для маршрутов:</p>
+                        @foreach (var route in profile.Routes)
+                        {
+                            <div class="route-tag">@route</div>
+                        }
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>

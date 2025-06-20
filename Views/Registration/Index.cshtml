@@ -1,0 +1,218 @@
+﻿@inject IConfiguration configuration
+@{
+    var siteKey = configuration["reCaptchaSettings:SiteKey"];
+}
+
+@model Users
+
+<style>
+    .main_block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+        background-color: white;
+        padding: 20px;
+    }
+
+    .registration {
+        width: 400px;
+        padding: 40px;
+        border-radius: 30px;
+        background-color: #E5EAE0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 100;
+    }
+
+        .registration h3 {
+            color: #404A36;
+            font-size: 20px;
+            font-family: 'Inter';
+            font-weight: 600;
+            margin-bottom: 30px;
+            margin-top: 20px;
+        }
+
+        .registration input {
+            width: 100%;
+            height: 36px;
+            padding: 0 15px;
+            background-color: white;
+            border: 0px solid #ddd;
+            border-radius: 20px;
+            font-family: 'Inter';
+            font-size: 14px;
+            margin-bottom: 5px; 
+        }
+
+            .registration input:focus {
+                outline: none;
+                border-color: #404A36;
+            }
+
+            .registration input::placeholder {
+                color: #939393;
+            }
+
+    .form-group {
+        width: 100%;
+        margin-bottom: 15px; /* Отступ между группами полей */
+        align-content: center;
+    }
+
+    .btn-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .btn-primary {
+        width: 180px;
+        height: 36px;
+        background-color: #404A36;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 200;
+        cursor: pointer;
+    }
+
+        .btn-primary:hover {
+            background-color: #333D29;
+        }
+
+    .login-link {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+        .login-link a {
+            color: #404A36;
+            text-decoration: none;
+            font-size: 14px;
+            font-family: 'Inter';
+            text-decoration: underline;
+        }
+
+    span {
+        color: #D51818;
+        font-size: 12px;
+        font-family: 'Inter';
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        text-align:center;
+    }
+
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .password-container {
+        position: relative;
+        width: 100%;
+    }
+
+    .toggle-password {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #939393;
+    }
+
+        .toggle-password:hover {
+            color: #404A36;
+        }
+
+        .toggle-password i {
+            font-size: 18px;
+        }
+</style>
+
+<div class="main_block">
+    <div class="registration">
+        <h3>Регистрация</h3>
+
+        <form id="registrationForm" method="POST" asp-controller="Registration" asp-action="Register" onsubmit="return onSubmit(event)">
+            <input type="hidden" id="recaptchaTokenInputId" name="RecaptchaToken" />
+
+            <div class="form-group">
+                <input type="email" placeholder="E-mail" asp-for="Email">
+                <span asp-validation-for="Email"></span>
+            </div>
+
+            <div class="form-group">
+                <div class="password-container">
+                    <input type="password" id="password" placeholder="Пароль" asp-for="Password">
+                    <button type="button" class="toggle-password" onclick="togglePassword('password')">
+                        <i class="fas fa-eye"></i>
+                    </button>
+                </div>
+                <span asp-validation-for="Password"></span>
+            </div>
+
+            <div class="form-group">
+                <div class="password-container">
+                    <input type="password" id="confirmPassword" placeholder="Повторный ввод пароля" asp-for="ConfirmPassword">
+                    <button type="button" class="toggle-password" onclick="togglePassword('confirmPassword')">
+                        <i class="fas fa-eye"></i>
+                    </button>
+                </div>
+                <span asp-validation-for="ConfirmPassword"></span>
+            </div>
+
+            <div class="btn-container">
+                <button type="submit" class="btn-primary">Создать</button>
+            </div>
+        </form>
+
+        <div class="login-link">
+            <a href="/Authorization">У меня уже есть аккаунт</a>
+        </div>
+    </div>
+</div>
+
+<!-- Подключаем Font Awesome для иконок -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LdrQPIqAAAAANntkS1pXdixawdILz8A4A6soEGY"></script>
+<script>
+    function onSubmit(event) {
+        event.preventDefault();
+
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LdrQPIqAAAAANntkS1pXdixawdILz8A4A6soEGY', { action: 'submit' }).then(function (token) {
+                document.getElementById("recaptchaTokenInputId").value = token;
+                document.getElementById("registrationForm").submit();
+            });
+        });
+
+        return false;
+    }
+
+    // Функция для переключения видимости пароля
+    function togglePassword(fieldId) {
+        const passwordField = document.getElementById(fieldId);
+        const toggleButton = passwordField.nextElementSibling;
+
+        if (passwordField.type === "password") {
+            passwordField.type = "text";
+            toggleButton.innerHTML = '<i class="fas fa-eye-slash"></i>';
+        } else {
+            passwordField.type = "password";
+            toggleButton.innerHTML = '<i class="fas fa-eye"></i>';
+        }
+    }
+</script>

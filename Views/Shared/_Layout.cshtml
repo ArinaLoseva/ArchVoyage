@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ArchVoyage</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <div class="headerblock">
+            <div class="greenblock">
+                <h1><a class="logo_link" href="/MainPage">ArchVoyage</a></h1>
+                <div class="menu">
+                    <a class="header_link" href="/Offers"> Предложения </a>
+                    <a class="header_link"  href="/Routes"> Маршруты </a>
+                    <a class="header_link"  href="/PersonalAccount">Личный кабинет</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main_container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="blackblock">
+            <div class="container">
+            <div class="block1">
+                <h4>О нас</h4>
+                <p>Команда</p>
+                <p>Условия</p>
+                <p>Политика</p>
+            </div>
+
+            <div class="block2">
+                <h4>Помощь</h4>
+                <p>FAQ</p>
+                <p>Поддержка</p>
+            </div>
+
+            <div class="block3">
+                <h4>Связаться с нами</h4>
+                <p>Twitter</p>
+                <p>Instagram</p>
+                <p>Telegram</p>
+            </div>
+
+            <div class="block4">
+                <h4>Контакты</h4>
+                <p>+375292172762</p>
+                <p>+375445693020</p>
+                <p>arch_voyage_bel@gmail.com</p>
+            </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,305 @@
+﻿@model ArchVoyage.Models.Forms
+
+@{
+    var userRoutes = ViewBag.UserRoutes as List<string> ?? new List<string>();
+    var allRoutes = new List<string>
+    {
+        "Белорусская готика и неоготика",
+        "Достопримечательности по дороге в Гродно",
+        "Белорусское барокко",
+        "50км от Минска",
+        "Из Минска в Витебск",
+        "7 неизвестных заброшек Беларуси"
+    };
+}
+
+@{
+    ViewData["Title"] = "Личный кабинет";
+}
+
+<style>
+    .profile-container {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 0 20px;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .profile-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .profile-avatar {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 30px;
+        border: 3px solid #E5EAE0;
+    }
+
+    .profile-info {
+        flex: 1;
+    }
+
+    .profile-name {
+        font-family: 'Playfair';
+        font-size: 28px;
+        color: #000;
+        margin: 0;
+    }
+
+    .profile-details,
+    .routes-section {
+        background-color: #F6F6F6;
+        border-radius: 30px;
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+
+    .detail-item {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+        font-size: 16px;
+        color: #151515;
+    }
+
+        .detail-item strong {
+            font-weight: 500;
+            color: #404A36;
+            width: auto;
+            margin-bottom: 5px;
+            margin-right: 5px;
+        }
+
+        .detail-item input {
+            padding: 6px 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 5px;
+        }
+
+        .detail-item span {
+            font-size: 16px;
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 5px;
+        }
+
+    .view-mode {
+        display: inline-block;
+        max-width: 400px;
+        word-break: break-word;
+    }
+
+    .routes-title {
+        font-size: 18px;
+        font-weight: 500;
+        color: #404A36;
+        margin-bottom: 20px;
+    }
+
+    .route-checkbox {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+        .route-checkbox input[type="checkbox"] {
+            margin-right: 10px;
+            transform: scale(1.2);
+        }
+
+        .route-checkbox label {
+            font-size: 15px;
+            color: #333;
+        }
+
+    .profile-actions {
+        display: flex;
+        gap: 15px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    .profile-button {
+        padding: 12px 25px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin: 10px 0;
+    }
+
+
+    .edit-button {
+        background-color: #404A36;
+        color: white;
+        border: none;
+    }
+
+        .edit-button:hover {
+            background-color: #333D29;
+        }
+
+    .logout-button {
+        background-color: transparent;
+        color: #D51818;
+        border: 1px solid #D51818;
+    }
+
+        .logout-button:hover {
+            background-color: #f8e8e8;
+        }
+
+    .checkbox-label {
+        display: inline-block;
+        padding-left: 25px;
+        position: relative;
+        cursor: default;
+    }
+
+        .checkbox-label:before {
+            content: "";
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 1px solid #ccc;
+            background-color: #f8f8f8;
+            position: absolute;
+            left: 0;
+            top: 2px;
+        }
+
+    .edit-mode:checked + .checkbox-label:before {
+        background-color: #333D29;
+    }
+
+    .route-tag{
+        width: auto;
+        background-color: #E5EAE0;
+        text-align: center;
+        padding: 12px 25px;
+        border-radius: 20px;
+        font-size: 14px;
+		margin: 10px 0;
+    }
+
+</style>
+
+
+<div class="profile-container">
+    <form asp-action="Edit" method="post" id="editForm">
+        <div class="profile-header">
+            <img src="@Model.PhotoLink" alt="Аватар" class="profile-avatar">
+            <div class="profile-info">
+                <h1 class="profile-name">
+                    <span class="view-mode">@Model.FullName</span>
+                    <input type="text" name="FullName" class="edit-mode profile-name" value="@Model.FullName" required style="display:none;" />
+                </h1>
+            </div>
+        </div>
+
+        <div class="profile-details">
+            <div class="detail-item">
+                <strong>Дата регистрации: </strong> @Model.RegistrationDate
+            </div>
+            <div class="detail-item">
+                <strong>О себе: </strong>
+                <span class="view-mode">@Model.PersonalInformation</span>
+                <input type="text" name="PersonalInformation" class="edit-mode" value="@Model.PersonalInformation" required style="display:none;" />
+            </div>
+            <div class="detail-item">
+                <strong>Город: </strong>
+                <span class="view-mode">@Model.City</span>
+                <input type="text" name="City" class="edit-mode" value="@Model.City" required style="display:none;" />
+            </div>
+            <div class="detail-item">
+                <strong>Транспорт: </strong>
+                <span class="view-mode">@Model.Transport</span>
+                <input type="text" name="Transport" class="edit-mode" value="@Model.Transport" style="display:none;" />
+            </div>
+            <div class="detail-item">
+                <strong>Контактная информация: </strong>
+                <span class="view-mode">@Model.Contacts</span>
+                <input type="text" name="Contacts" class="edit-mode" value="@Model.Contacts" required style="display:none;" />
+            </div>
+            <div class="detail-item">
+                <strong>Прямая ссылка на фото: </strong>
+                <span class="view-mode">@Model.PhotoLink</span>
+                <input type="text" name="PhotoLink" class="edit-mode" value="@Model.PhotoLink" required style="display:none;" />
+            </div>
+        </div>
+
+        <div class="routes-section">
+            <div class="routes-title">Ищу попутчиков для маршрутов:</div>
+            <div class="view-mode">
+                @if (userRoutes.Any())
+                {
+                    @foreach (var route in userRoutes)
+                    {
+                        <div class="route-tag">@route</div>
+                    }
+                }
+                else
+                {
+                    <span>Маршруты не выбраны</span>
+                }
+            </div>
+
+            <div class="edit-mode" style="display:none;">
+                @foreach (var route in allRoutes)
+                {
+                    <div class="route-checkbox">
+                        <input type="checkbox"
+                               id="@("route_" + route.Replace(" ", "_"))"
+                               name="selectedRoutes"
+                               value="@route"
+                               class="edit-mode"
+                        @(userRoutes.Contains(route) ? "checked" : "")>
+                        <label for="@("route_" + route.Replace(" ", "_"))" class="edit-mode checkbox-label">@route</label>
+                    </div>
+                }
+            </div>
+        </div>
+
+
+        <div class="profile-actions">
+            <button type="button" id="editToggleBtn" class="profile-button edit-button">Редактировать</button>
+            <button type="submit" id="saveBtn" class="profile-button edit-button" style="display:none;">Сохранить</button>
+        </div>
+    </form>
+
+    <form asp-action="Logout" method="post">
+        <button type="submit" class="profile-button logout-button">Выйти</button>
+    </form>
+</div>
+
+
+<script>
+    document.getElementById("editToggleBtn").addEventListener("click", function () {
+        const viewElements = document.querySelectorAll(".view-mode");
+        const editElements = document.querySelectorAll(".edit-mode");
+
+        // Переключаем режимы отображения
+        viewElements.forEach(el => el.style.display = "none");
+        editElements.forEach(el => {
+            el.style.display = el.classList.contains("profile-name") ? "inline-block" : "block";
+            if (el.type === "checkbox") {
+                el.disabled = false;
+            }
+        });
+
+        // Переключаем кнопки
+        document.getElementById("editToggleBtn").style.display = "none";
+        document.getElementById("saveBtn").style.display = "inline-block";
+    });
+</script>

@@ -1,0 +1,417 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\ArchVoyage.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ArchVoyage.xqakamkw60.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\COPYRIGHT.txt",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\COPYRIGHT.txt"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\Inter-Black.otf",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\Inter-Black.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\Inter-BlackItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\Inter-BlackItalic.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\Inter-Bold.otf",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\Inter-Bold.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\Inter-BoldItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\Inter-BoldItalic.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\Inter-ExtraBold.otf",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\Inter-ExtraBold.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\Inter-ExtraBoldItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\Inter-ExtraBoldItalic.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\Inter-ExtraLight.otf",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\Inter-ExtraLight.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\Inter-ExtraLightItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\Inter-ExtraLightItalic.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\Inter-Italic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\Inter-Italic.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\Inter-Light.otf",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\Inter-Light.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\Inter-LightItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\Inter-LightItalic.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\Inter-Medium.otf",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\Inter-Medium.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\Inter-MediumItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\Inter-MediumItalic.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\Inter-Regular.otf",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\Inter-Regular.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\Inter-SemiBold.otf",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\Inter-SemiBold.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\Inter-SemiBoldItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\Inter-SemiBoldItalic.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\Inter-Thin.otf",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\Inter-Thin.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\Inter-ThinItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\Inter-ThinItalic.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\Inter-V.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\Inter-V.ttf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Inter\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\fonts\\Inter\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Libre Bodoni\\COPYRIGHT.txt",
+      "PackagePath": "staticwebassets\\fonts\\Libre Bodoni\\COPYRIGHT.txt"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Libre Bodoni\\FONTLOG.txt",
+      "PackagePath": "staticwebassets\\fonts\\Libre Bodoni\\FONTLOG.txt"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Libre Bodoni\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\fonts\\Libre Bodoni\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Libre Bodoni\\LibreBodoni-Bold.otf",
+      "PackagePath": "staticwebassets\\fonts\\Libre Bodoni\\LibreBodoni-Bold.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Libre Bodoni\\LibreBodoni-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Libre Bodoni\\LibreBodoni-Bold.ttf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Libre Bodoni\\LibreBodoni-BoldItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Libre Bodoni\\LibreBodoni-BoldItalic.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Libre Bodoni\\LibreBodoni-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Libre Bodoni\\LibreBodoni-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Libre Bodoni\\LibreBodoni-Italic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Libre Bodoni\\LibreBodoni-Italic.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Libre Bodoni\\LibreBodoni-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Libre Bodoni\\LibreBodoni-Italic.ttf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Libre Bodoni\\LibreBodoni-Regular.otf",
+      "PackagePath": "staticwebassets\\fonts\\Libre Bodoni\\LibreBodoni-Regular.otf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Libre Bodoni\\LibreBodoni-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Libre Bodoni\\LibreBodoni-Regular.ttf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Libre Bodoni\\OFL.txt",
+      "PackagePath": "staticwebassets\\fonts\\Libre Bodoni\\OFL.txt"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Playfair Display\\COPYRIGHT.txt",
+      "PackagePath": "staticwebassets\\fonts\\Playfair Display\\COPYRIGHT.txt"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Playfair Display\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\fonts\\Playfair Display\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Playfair Display\\PlayfairDisplay-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Playfair Display\\PlayfairDisplay-Italic.ttf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\fonts\\Playfair Display\\PlayfairDisplay.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Playfair Display\\PlayfairDisplay.ttf"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Диплом\\ArchVoyage\\ArchVoyage\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.ArchVoyage.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.ArchVoyage.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.ArchVoyage.props",
+      "PackagePath": "build\\ArchVoyage.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ArchVoyage.props",
+      "PackagePath": "buildMultiTargeting\\ArchVoyage.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.ArchVoyage.props",
+      "PackagePath": "buildTransitive\\ArchVoyage.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
